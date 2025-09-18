@@ -11,7 +11,7 @@ This project demonstrates a classic SQL injection vulnerability using a Node.js 
 
 ### 1. Clone the repository
 ```
-git clone [<your-repo-url>](https://github.com/Pathum-Vimukthi-Kumara/Cyber-Attacks-demo-sites)
+git clone https://github.com/Pathum-Vimukthi-Kumara/Cyber-Attacks-demo-sites
 cd CyberSecurity Projects demos
 ```
 
