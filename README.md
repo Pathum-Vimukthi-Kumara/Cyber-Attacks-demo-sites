@@ -11,59 +11,10 @@ This project demonstrates a classic SQL injection vulnerability using a Node.js 
 
 ### 1. Clone the repository
 ```
-git clone <your-repo-url>
+git clone [<your-repo-url>](https://github.com/Pathum-Vimukthi-Kumara/Cyber-Attacks-demo-sites)
 cd CyberSecurity Projects demos
 ```
 
-### 2. Configure the backend
-- Go to the `backend` folder:
-   ```
-   cd backend
-   ```
-- Create a `.env` file with your MySQL credentials:
-   ```
-   DB_HOST=your-mysql-host
-   DB_USER=your-mysql-username
-   DB_PASSWORD=your-mysql-password
-   DB_NAME=your-mysql-dbname
-   DB_PORT=3306
-   PORT=3001
-   ```
-- Install dependencies:
-   ```
-   npm install
-   ```
-
-### 3. Configure the frontend
-- Go to the `frontend` folder:
-   ```
-   cd ../frontend
-   ```
-- Install dependencies:
-   ```
-   npm install
-   ```
-
-### 4. Start the backend
-- In the `backend` folder:
-   ```
-   npm start
-   ```
-
-### 5. Start the frontend
-- In the `frontend` folder (new terminal):
-   ```
-   npm start
-   ```
-
-### 6. Open the app
-- Visit [http://localhost:3000](http://localhost:3000) in your browser.
-
-## SQL Injection Demo
-- Try logging in with a payload like:
-   - Username: `' OR 1=1 --`
-   - Password: (leave blank or any value)
-- You should be logged in as the first user in the database, demonstrating the vulnerability.
 
 ## Warning
 **This project is intentionally vulnerable. Do NOT deploy in production. For educational/testing use only.*
